@@ -1,0 +1,43 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.created, .done{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-weight: bold;
+}
+
+.created {
+    color: var(--blue);
+}
+
+.done {
+    color: var(--purple);
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    padding: 2px 8px;
+    margin-left: 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+}
+
+.list{
+    margin-top: 24px;
+}
+
