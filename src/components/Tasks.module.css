@@ -41,3 +41,24 @@
     margin-top: 24px;
 }
 
+.empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+    gap: 1rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.empty img{
+    width: 56px;
+    height: 56px;
+}
+
+.emptyText{
+    color: var(--gray-300);
+    font-weight: bold;
+}
+

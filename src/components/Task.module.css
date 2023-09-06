@@ -8,6 +8,10 @@
     font-size: 14px;
 }
 
+.task label {
+    flex: 1;
+}
+
 .task + .task {
     margin-top: 12px;
 }
@@ -15,4 +19,19 @@
 .checked {
     text-decoration: line-through;
     color: var(--gray-300);
+}
+
+.task button {
+    background: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.task button svg:hover {
+    fill: var(--feedback);
 }

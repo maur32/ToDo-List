@@ -13,8 +13,7 @@
     border-radius: 8px;
     border: 1px solid var(--gray-700);
     padding: 16px;
-    font-size: 0.875rem;
-    font-weight: bold;
+    font-size: 1rem;
     background-color: var(--gray-500);
     color: var(--gray-100);
 }
@@ -32,10 +31,14 @@
     color: var(--gray-100);
     font-size: 0.875rem;
     font-weight: bold;
-    transition: opacity .1s ease-in-out;
+    transition: background-color .1s ease-in-out;
 }
 
-.createButton:hover{
+.createButton:disabled{
+    opacity: .6;
+}
+
+.createButton:hover:not(:disabled){
     cursor: pointer;
-    opacity: .8;
+    background-color: var(--blue)
 }
